@@ -12,7 +12,6 @@ Defines one-to-many dependency between objects so that when one object changes s
 - Strive for loosely coupled designs between objects that interact.
   - Crucial to build flexible OO systems that can handle change because they minimize interdependency.
 - Swing makes heavy use of Observer pattern, many GUI frameworks do.
-- 
 
 ![OBSERVER I](observer_pt1.png "observer 1")
 ![OBSERVER II](observer_pt2.png "observer 2")
