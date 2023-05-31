@@ -24,7 +24,7 @@ It lets a class defer instantiation to subclasses.
   - Factory uses inheritance
   - Abstract Factory uses composition
 - All factories encapsulate object creation.
-- 
+
 
 !["Simple Factory"](simple_factory.png "simple factory")
 !["Factory"](factory.png "factory")
