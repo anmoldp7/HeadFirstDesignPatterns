@@ -17,12 +17,18 @@ It lets a class defer instantiation to subclasses.
   - No variable should hold a reference to concrete class.
   - No class should derive from concrete class.
   - No method should override an implemented method of any of its base class.
+- Abstract factory provides interface to create family of products without specifying concrete class.
+  - Implement variety of factories that produce products meant for different contexts.
+  - Substitute different factories to get different behaviors.
+- Factory vs Abstract Factory
+  - Factory uses inheritance
+  - Abstract Factory uses composition
+- All factories encapsulate object creation.
+- 
 
 !["Simple Factory"](simple_factory.png "simple factory")
 !["Factory"](factory.png "factory")
 !["CREATOR vs PRODUCT"](factory_pt1.png "creator vs product")
 !["Factory Explained"](factory_pt2.png "factory explained")
-
-# TO-DO
-
-- Implement and document abstract factory section.
+!["Abstract Factory I"](abstract_factory_pt1.png "abstract factory 1")
+!["Abstract Factory II"](abstract_factory_pt2.png "abstract factory 2")
