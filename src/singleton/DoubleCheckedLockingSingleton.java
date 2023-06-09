@@ -9,7 +9,7 @@ public class DoubleCheckedLockingSingleton {
     public static DoubleCheckedLockingSingleton getInstance() {
         if (uniqueInstance == null) {
             synchronized (DoubleCheckedLockingSingleton.class) {
-                if(uniqueInstance == null) {
+                if (uniqueInstance == null) {
                     uniqueInstance = new DoubleCheckedLockingSingleton();
                 }
             }
