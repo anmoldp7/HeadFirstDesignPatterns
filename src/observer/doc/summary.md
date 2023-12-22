@@ -9,7 +9,7 @@ Defines one-to-many dependency between objects so that when one object changes s
 - Subject isn't modified to add new types of observers.
 - Subjects or observers can be reused independently of each other.
 - Changes to either subject or the observer won't affect the other.
-- Strive for loosely coupled designs between objects that interact.
+- Strive for loosely coupled designs between objects that interact. **[Design Principle]**
   - Crucial to build flexible OO systems that can handle change because they minimize interdependency.
 - Swing makes heavy use of Observer pattern, many GUI frameworks do.
 
